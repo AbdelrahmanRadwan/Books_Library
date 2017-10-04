@@ -8,7 +8,8 @@
 <h1>{{Author.Name}}'s books:</h1>
 <ul>
     {%for book in Author.book_set.all%}
-        <li>{{book.Title}} </li><br>
+         <li> <a href="http://127.0.0.1:8000/home/book/{{book.pk}}/">
+                {{book.Title}}</a> </li>
     {% endfor %}
 </ul>
 </body>

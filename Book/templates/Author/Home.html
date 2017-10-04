@@ -5,11 +5,21 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>Hello World from home</h1>
+    <h1>Hello, this is the home page</h1>
+    <h2>List of the Authors</h2>
     <ol>
         {% for author in all_authors%}
-            <li> <a href="http://127.0.0.1:8000/home/{{author.pk}}/">
+            <li> <a href="http://127.0.0.1:8000/home/author/{{author.pk}}/">
                 {{author.Name}}</a> </li>
+        {% endfor %}
+
+    </ol>
+<!--------------------------------------------------------------------------->
+    <h2>List of the Books</h2>
+    <ol>
+        {% for book in all_books%}
+            <li> <a href="http://127.0.0.1:8000/home/book/{{book.pk}}/">
+                {{book.Title}}</a> </li>
         {% endfor %}
 
     </ol>
