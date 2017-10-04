@@ -7,12 +7,21 @@ from django.template import loader
 # Create your views here.
 def index(Request):
     all_authors = Author.objects.all()
-    html ="<h1>Hello World from home</h1><br>"
-    for author in all_authors:
-        link = 'http://127.0.0.1:8000/home/' + str(author.pk)+ '/'
-        html += r'<a href= "'+ link + '">' + author.Name + '</a><br>'
-    return HttpResponse(html)
+    template = loader.get_template('Author/Home.html')
+    context = \
+    {
+        'all_authors' : all_authors,
+    }
+    return HttpResponse(template.render(context, Request))
 
 def view_author(Request,view_author):
-    return HttpResponse("<h2>Imformation about Abuthor number: "+ str(view_author)
-                        +"</h2>")
+    specific_Author = Author.objects.get(pk =view_author)
+    template = loader.get_template('Author/Author.html')
+    context = \
+    {
+        'Author' : specific_Author,
+    }
+    return HttpResponse(template.render(context, Request))
+    '''return HttpResponse("<h2>Imformation about Abuthor number: "+ str(view_author)
+                        +"</h2>")'''
+
