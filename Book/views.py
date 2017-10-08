@@ -34,3 +34,13 @@ def view_book(Request, view_book):
         }
     return HttpResponse(template.render(context, Request))
 
+def view_favourite(Request):
+    template = loader.get_template('Author/Home.html')
+    all_books = Book.objects.all()
+    context = \
+        {
+            'all_books': all_books,
+        }
+    return HttpResponse(template.render(context, Request))
+
+
