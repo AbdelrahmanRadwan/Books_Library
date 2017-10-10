@@ -6,6 +6,13 @@
 </head>
 <body>
     <h1>Hello, this is the home page</h1>
+
+
+
+    <input id="search" type="text" placeholder="Type here">
+    <input id="submit" type="submit" value="Search">
+
+
     <h2>List of the Authors</h2>
     <ol>
         {% for author in all_authors%}
@@ -20,15 +27,14 @@
     <form action="{% url 'Book:Favourite_'%}", method="post">
         {% csrf_token %}
             {% for book in all_books%}
-                 <input type="image" id="Book{{forloop.counter}}" name="Book"
-                        value="{{book.pk}}"
-                        {% if song.IsFavourite %}
-                            src="http://iconshow.me/media/images/Mixed/line-icon/png/256/star-256.png"
-                        {% else %}
-                            src="https://cdn2.iconfinder.com/data/icons/crystalproject/crystal_project_256x256/apps/keditbookmarks.png"
-                        {% endif %}
-                        alt="Submit" width="20" height="20"/>
-                <label for= 'Book{{forloop.counter}}'> <a href= "{% url 'Book:Book_' book.pk %}">{{book.Title}}</a></label>br>
+                {% if song.IsFavourite  %}
+                      <input type="image" id="Book{{forloop.counter}}" name="Book"
+                             value="{{book.pk}}"
+                             src="http://iconshow.me/media/images/Mixed/line-icon/png/256/star-256.png"
+                             alt="Submit" width="20" height="20"/>
+                {% endif %}
+                <label for= 'Book{{forloop.counter}}'> <a href= "{% url 'Book:Book_' book.pk %}">{{book.Title}}</a></label><br>
+
             {% endfor %}
 
     </form>

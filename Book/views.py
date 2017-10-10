@@ -3,6 +3,8 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Author, Book
 from django.template import loader
+from django.views import generic
+
 
 # Create your views here.
 def view_home(Request):
