@@ -1,10 +1,12 @@
 from __future__ import unicode_literals
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Author, Book
 from django.template import loader
 from django.views import generic
-
+from django.contrib.auth import authenticate, login
+from django.views.generic import View
+from .forms import UserForm
 
 # Create your views here.
 def view_home(Request):
@@ -46,3 +48,6 @@ def view_favourite(Request):
     return HttpResponse(template.render(context, Request))
 
 
+class UserFormView(View):
+    form_class = UserForm
+    template_name = 'Author/registration_form.html'
