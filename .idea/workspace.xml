@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4738868d-8d45-47f6-bab1-ad4e0811eb4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Book/templates/Author/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Book/templates/Author/register.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book/templates/Author/registration_form.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book/forms.py" afterPath="$PROJECT_DIR$/Book/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book/templates/Author/Home.html" afterPath="$PROJECT_DIR$/Book/templates/Author/Home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book/urls.py" afterPath="$PROJECT_DIR$/Book/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book/views.py" afterPath="$PROJECT_DIR$/Book/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BooksLibraryPro/settings.py" afterPath="$PROJECT_DIR$/BooksLibraryPro/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Book/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="683">
-              <caret line="87" column="23" lean-forward="true" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+              <caret line="87" column="23" lean-forward="false" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#397#678#0" expanded="false" />
@@ -46,6 +38,36 @@
                 <element signature="e#1008#1239#0" expanded="false" />
                 <element signature="e#1274#1490#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BooksLibraryPro/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BooksLibraryPro/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/companies/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/Book/templates/Author/register.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,7 +116,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Dummy_Temp.py" />
-        <option value="$PROJECT_DIR$/BooksLibraryPro/settings.py" />
         <option value="$PROJECT_DIR$/Accounts/views.py" />
         <option value="$PROJECT_DIR$/Accounts/admin.py" />
         <option value="$PROJECT_DIR$/BooksLibraryPro/urls.py" />
@@ -113,6 +134,7 @@
         <option value="$PROJECT_DIR$/Book/urls.py" />
         <option value="$PROJECT_DIR$/Book/views.py" />
         <option value="$PROJECT_DIR$/Book/templates/Author/login.html" />
+        <option value="$PROJECT_DIR$/BooksLibraryPro/settings.py" />
       </list>
     </option>
   </component>
@@ -168,25 +190,12 @@
             <path>
               <item name="Books Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="Books Library" type="462c0819:PsiDirectoryNode" />
-              <item name="Accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="BooksLibraryPro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Books Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="Books Library" type="462c0819:PsiDirectoryNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books Library" type="462c0819:PsiDirectoryNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books Library" type="462c0819:PsiDirectoryNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Author" type="462c0819:PsiDirectoryNode" />
+              <item name="companies" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -397,13 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Accounts/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Accounts/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -609,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BooksLibraryPro/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1279">
-          <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pictures/Favourite1.png" />
     <entry file="file://$PROJECT_DIR$/BooksLibraryPro/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -628,13 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BooksLibraryPro/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -716,7 +704,7 @@
     <entry file="file://$PROJECT_DIR$/Book/templates/Author/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -740,7 +728,7 @@
     <entry file="file://$PROJECT_DIR$/Book/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
-          <caret line="87" column="23" lean-forward="true" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+          <caret line="87" column="23" lean-forward="false" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#397#678#0" expanded="false" />
@@ -748,6 +736,30 @@
             <element signature="e#1008#1239#0" expanded="false" />
             <element signature="e#1274#1490#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksLibraryPro/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companies/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksLibraryPro/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
