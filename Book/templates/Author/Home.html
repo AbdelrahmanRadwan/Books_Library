@@ -27,7 +27,7 @@
     <form action="{% url 'Book:Favourite_'%}", method="post">
         {% csrf_token %}
             {% for book in all_books%}
-                {% if song.IsFavourite  %}
+                {% if song.IsFavourite   %}
                       <input type="image" id="Book{{forloop.counter}}" name="Book"
                              value="{{book.pk}}"
                              src="http://iconshow.me/media/images/Mixed/line-icon/png/256/star-256.png"

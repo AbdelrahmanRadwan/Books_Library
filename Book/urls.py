@@ -14,6 +14,9 @@ urlpatterns = \
         url(r'^book/(?P<view_book>[0-9]+)/$', views.view_book, name="Book_"),
         # Local_Host/Book_ID/favourite
         url(r'^book/favourite/$', views.view_favourite, name="Favourite_"),
-
+        # Local_Host/Home/Register/
+        url(r'^register/$', views.UserFormView.as_view(), name="Register_"),
+        # Local_Host/Home/Login_User/
+        url(r'^login_user/$', views.login_user, name='login_user'),
     ]
 
